@@ -22,7 +22,6 @@ fileSubmit.onclick = async (e) => {
 window.onload = async () => {
 	let root = document.getElementById('root');
 	root.style.display = 'flex';
-	root.style.flexWrap = 'nowrap';
 
 	try {
 		let val = await (
